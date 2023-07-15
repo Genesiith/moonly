@@ -1,0 +1,67 @@
+/**
+ * @name pink and black
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
+*/
+
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
+:root {
+  --background-image: url('https://i.pinimg.com/originals/7c/77/f8/7c77f8d1a4ced504204a54774abec72f.gif');
+  --background-image-blur: 0px;
+  --background-image-size: cover;
+  --background-image-position: center;
+  --popout-image: var(--background-image);
+  --popout-image-blur: 2px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://i.pinimg.com/orie65fb0ec12722efcd949f.gif');
+  --overlay-image-blur: 30px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.pinimg.com/originals/00/a9/e7/00a9e75e191e65fb0ec12722efcd949f.gif');
+  --home-button-size: 180%;
+  --home-button-position: top left;
+  --serverlist-brightness: 0.16;
+  --left-brightness: 0.16;
+  --middle-brightness: 0.16;
+  --right-brightness: 0.44;
+  --overlay-brightness: 1;
+  --gradient-primary: 255,7,91;
+  --gradient-secondary: 0,0,0;
+  --link-colour: #9C27B0;
+  --scrollbar-colour: rgb(255,0,87,1);
+  --gradient-direction: 275deg;
+  --tint-colour: 255,51,159;
+  --tint-brightness: 0;
+  --font: gg sans;
+  --window-padding: 3px;
+  --window-roundness: 19px;
+  --update-notice-1: none;
+  --rs-small-spacing: 0px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #9C27B0;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #000000;
+  --rs-offline-color: #FF0057;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
+
+
